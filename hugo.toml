@@ -1,9 +1,9 @@
-# theme = "hugo-theme-cleanwhite"
+theme = "hugo-theme-cleanwhite"
 publishDir = "./docs"
 baseURL = 'https://productivityeducation.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = "ananke"
+# theme = "ananke"
 
 # Configure default directories (optional)
 contentDir = "content"
