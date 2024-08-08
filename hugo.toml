@@ -1,0 +1,41 @@
+# theme = "hugo-theme-cleanwhite"
+publishDir = "./docs"
+baseURL = 'https://productivityeducation.github.io/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "ananke"
+
+# Configure default directories (optional)
+contentDir = "content"
+layoutDir = "layouts"
+staticDir = "static"
+dataDir = "data"
+archetypeDir = "archetypes"
+
+# Enable some useful features
+paginate = 10  # Adjust the number of posts per page
+enableRobotsTXT = true
+
+# Permalinks for prettier URLs
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+
+# Configure menu
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+# Configure parameters (specific to your theme)
+[params]
+  description = "This is my personal blog about tech."
+  author = "Your Name"

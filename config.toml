@@ -1,5 +1,0 @@
-theme = "hugo-theme-cleanwhite"
-publishDir = "./docs"
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
